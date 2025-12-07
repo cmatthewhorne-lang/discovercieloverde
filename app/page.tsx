@@ -1,65 +1,80 @@
-import Image from "next/image";
+import Hero from "@/components/Hero";
+import Footer from "@/components/Footer";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main className="min-h-screen flex flex-col">
+      {/* Hero */}
+      <Hero />
+
+      {/* Content sections */}
+      <div className="flex-1">
+        <div className="max-w-4xl mx-auto px-6 pb-20 space-y-16">
+
+          {/* Generational Alchemy */}
+          <section className="space-y-4 border border-white/10 rounded-xl p-6 bg-white/5 bg-opacity-[0.01] backdrop-blur-sm">
+            <h2 className="text-xs tracking-[0.35em] text-emerald-200/70 uppercase">
+              Generational Alchemy
+            </h2>
+            <h3 className="text-xl md:text-2xl font-medium text-white">
+              Turn the weight of your line into a living ritual.
+            </h3>
+            <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
+              Discover Cielo Verde breaks your story into small, mythic chapters:
+              arrivals and departures, vows and betrayals, quiet acts of courage
+              that never made it into the family myth. As you move through the
+              journey, patterns surface—not to condemn your ancestors, but to
+              understand the gravity they carried and what you choose to carry
+              forward.
+            </p>
+          </section>
+
+          {/* Nova-Forged */}
+          <section className="space-y-4 border border-white/10 rounded-xl p-6 bg-linear-to-b from-zinc-900/60 to-black/80">
+            <h2 className="text-xs tracking-[0.35em] text-emerald-200/70 uppercase">
+              Nova-Forged
+            </h2>
+            <h3 className="text-xl md:text-2xl font-medium text-white">
+              Built with reverence, not extraction.
+            </h3>
+            <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
+              The experience is designed under Nova Forge rules: respectful,
+              private, and human-centered. There are no leaderboards, streaks,
+              or dopamine traps—only slow, contemplative scenes that give you
+              room to breathe between generations.
+            </p>
+            <ul className="text-sm text-zinc-400 space-y-1 pl-5 list-disc">
+              <li>No public feeds. Your journey is yours alone.</li>
+              <li>Stories are generated on the fly and not stored.</li>
+              <li>Every interaction is optional and skippable.</li>
+            </ul>
+          </section>
+
+          {/* A Real Place */}
+          <section className="space-y-4 border border-white/10 rounded-xl p-6 bg-linear-to-b from-emerald-500/5 to-transparent">
+            <h2 className="text-xs tracking-[0.35em] text-emerald-200/70 uppercase">
+              A Real Place
+            </h2>
+            <h3 className="text-xl md:text-2xl font-medium text-white">
+              The journey points toward a mountain.
+            </h3>
+            <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
+              Beneath the digital ritual is a physical sanctuary in the Costa
+              Rican cloud forest—Cielo Verde, a living project on the shoulder
+              of Braulio Carrillo. One day, those who feel called will be able
+              to complete this work on the land itself: under the rain, among
+              bamboo and volcanic stone.
+            </p>
+            <p className="text-xs text-zinc-500">
+              This prototype is the first gate. The mountain is real. The call
+              is yours to answer.
+            </p>
+          </section>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+      </div>
+
+      {/* Footer */}
+      <Footer />
+    </main>
   );
 }
