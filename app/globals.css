@@ -36,3 +36,57 @@ body::after {
   z-index: -1;
   pointer-events: none;
 }
+
+/* Floating Mist Layer */
+.mist {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background: radial-gradient(circle at 40% 60%, rgba(0, 255, 180, 0.07), transparent 70%);
+  animation: drift 18s ease-in-out infinite alternate;
+}
+
+@keyframes drift {
+  from {
+    transform: translate3d(-2%, -1%, 0) scale(1.02);
+  }
+
+  to {
+    transform: translate3d(2%, 1%, 0) scale(1.04);
+  }
+}
+
+.pulse {
+  animation: pulseGlow 6s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+
+  0%,
+  100% {
+    text-shadow: 0 0 0px rgba(0, 255, 180, 0.25);
+  }
+
+  50% {
+    text-shadow: 0 0 12px rgba(0, 255, 180, 0.35);
+  }
+}
+
+@keyframes pulse-soft {
+  0% {
+    opacity: 0.85;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.85;
+  }
+}
+
+.pulse {
+  animation: pulse-soft 4s ease-in-out infinite;
+}

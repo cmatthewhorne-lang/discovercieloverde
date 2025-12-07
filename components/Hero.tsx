@@ -11,11 +11,10 @@ export default function Hero() {
         Discover Cielo Verde
       </p>
 
-      <h1 className="text-4xl md:text-6xl font-light leading-tight mb-6">
-        <span className="text-white/90">Heal the line</span>
-        <br />
-        <span className="text-emerald-300/80">between lives.</span>
-      </h1>
+      <h1 className="text-5xl md:text-6xl font-light leading-tight mb-6 pulse bg-clip-text text-transparent bg-linear-to-b from-emerald-200 to-emerald-400/40">
+  Heal the line<br />between lives.
+</h1>
+
 
       <p className="text-base md:text-lg text-zinc-300/90 max-w-2xl mx-auto mb-10">
         A slow, cinematic journey through ancestry, grief, and quiet miracles.
