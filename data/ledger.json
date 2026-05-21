@@ -1,0 +1,252 @@
+[
+  {
+    "date": "TBD",
+    "category": "Trail Work",
+    "item": "Machetes (2) — trail clearing",
+    "note": "Daniel and his brother starting trail work this weekend. Two machetes needed.",
+    "amount": 30,
+    "status": "Needed",
+    "estimate": true,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "Trail Work",
+    "item": "Motoguadaña — Stihl FS brushcutter",
+    "note": "Company asset, stays on the land. Used for trail clearing and ongoing maintenance.",
+    "amount": 400,
+    "status": "Needed",
+    "estimate": true,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "Trail Work",
+    "item": "Trail clearing — Day 1",
+    "note": "$50/day covers one person working. ~25–30 meters cleared per day.",
+    "amount": 50,
+    "status": "Needed",
+    "estimate": false,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "Trail Work",
+    "item": "Trail clearing — Day 2",
+    "note": "$50/day covers one person working. ~25–30 meters cleared per day.",
+    "amount": 50,
+    "status": "Needed",
+    "estimate": false,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "Trail Work",
+    "item": "Trail clearing — Day 3",
+    "note": "$50/day covers one person working. ~25–30 meters cleared per day.",
+    "amount": 50,
+    "status": "Needed",
+    "estimate": false,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "Trail Work",
+    "item": "Trail clearing — Day 4",
+    "note": "$50/day covers one person working. ~25–30 meters cleared per day.",
+    "amount": 50,
+    "status": "Needed",
+    "estimate": false,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "Trail Work",
+    "item": "Trail clearing — Day 5",
+    "note": "$50/day covers one person working. ~25–30 meters cleared per day.",
+    "amount": 50,
+    "status": "Needed",
+    "estimate": false,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "Trail Work",
+    "item": "Trail clearing — Day 6",
+    "note": "$50/day covers one person working. ~25–30 meters cleared per day.",
+    "amount": 50,
+    "status": "Needed",
+    "estimate": false,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "Trail Work",
+    "item": "Trail clearing — Day 7",
+    "note": "$50/day covers one person working. ~25–30 meters cleared per day.",
+    "amount": 50,
+    "status": "Needed",
+    "estimate": false,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "Trail Work",
+    "item": "Trail clearing — Day 8",
+    "note": "$50/day covers one person working. ~25–30 meters cleared per day.",
+    "amount": 50,
+    "status": "Needed",
+    "estimate": false,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "Trail Work",
+    "item": "Trail clearing — Day 9",
+    "note": "$50/day covers one person working. ~25–30 meters cleared per day.",
+    "amount": 50,
+    "status": "Needed",
+    "estimate": false,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "Trail Work",
+    "item": "Trail clearing — Day 10",
+    "note": "$50/day covers one person working. ~25–30 meters cleared per day.",
+    "amount": 50,
+    "status": "Needed",
+    "estimate": false,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "Property",
+    "item": "Gate — materials",
+    "note": "New gate at road entrance. Materials estimate — final cost confirmed when purchased.",
+    "amount": 400,
+    "status": "Needed",
+    "estimate": true,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "Property",
+    "item": "Gate — installation labor",
+    "note": "Local labor for gate installation.",
+    "amount": 200,
+    "status": "Needed",
+    "estimate": true,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "Property",
+    "item": "Fence assessment and priority repairs",
+    "note": "Materials and labor for the most critical boundary fence sections. Estimate pending assessment.",
+    "amount": 350,
+    "status": "Needed",
+    "estimate": true,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "Property",
+    "item": "Property cleanup — trash removal",
+    "note": "Hauling accumulated trash off the property.",
+    "amount": 150,
+    "status": "Needed",
+    "estimate": true,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "The Outpost",
+    "item": "Shack rehab — bahareque walls",
+    "note": "Traditional mud-and-cane construction. Edwin's shack restored, not demolished. Materials + local labor. Estimate pending builder quote.",
+    "amount": 600,
+    "status": "Needed",
+    "estimate": true,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "The Outpost",
+    "item": "Shack rehab — new roof",
+    "note": "New metal roof. Estimate pending builder quote.",
+    "amount": 400,
+    "status": "Needed",
+    "estimate": true,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "The Outpost",
+    "item": "Spring water line repair",
+    "note": "Assess and repair existing pipe from the spring. Materials estimate.",
+    "amount": 150,
+    "status": "Needed",
+    "estimate": true,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "The Farm",
+    "item": "Two meat heifers for Daniel",
+    "note": "Income from cattle sales goes to Daniel's family, not the project. Recoverable over time.",
+    "amount": 1200,
+    "status": "Needed",
+    "estimate": true,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "The Farm",
+    "item": "Two guard dogs",
+    "note": "Coyote protection for the cattle. Working dogs, not pets.",
+    "amount": 200,
+    "status": "Needed",
+    "estimate": true,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "Safety",
+    "item": "Garmin inReach Mini 2 — satellite communicator",
+    "note": "No cell signal on the property. Required for safety when working remote. Device + first year subscription.",
+    "amount": 400,
+    "status": "Needed",
+    "estimate": true,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "July Expedition",
+    "item": "Andrew Tremblay — flight (Florida to San José)",
+    "note": "Wildlife photographer. Documents the land for the first time.",
+    "amount": 500,
+    "status": "Needed",
+    "estimate": true,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "July Expedition",
+    "item": "Expedition food — 5 days for crew",
+    "note": "Food for the full crew on the land. Simple, real food.",
+    "amount": 300,
+    "status": "Needed",
+    "estimate": true,
+    "evidence": null
+  },
+  {
+    "date": "TBD",
+    "category": "July Expedition",
+    "item": "Transport — San José to the land and back",
+    "note": "4x4 required. Multiple trips depending on crew size.",
+    "amount": 200,
+    "status": "Needed",
+    "estimate": true,
+    "evidence": null
+  }
+]
