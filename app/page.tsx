@@ -114,10 +114,10 @@ export default function HomePage() {
         <section className="border-l-4 border-emerald-600 pl-8 max-w-2xl">
           <h2 className="text-sm font-medium text-stone-500 mb-5">The Caretakers</h2>
           <p className="text-stone-700 leading-relaxed mb-4">
-            Edwin "Macho" lived in this area for over 50 years, and on this land for over 25 — not as an employee, but as a steward. He knew every trail, every spring, every tree. He built paths through forest that had no paths. He protected it when it would have been easier not to.
+            Macho lived in this area for over 50 years, and on this land for over 25 — not as an employee, but as a steward. He knew every trail, every spring, every tree. He built paths through forest that had no paths. He protected it when it would have been easier not to.
           </p>
           <p className="text-stone-700 leading-relaxed mb-4">
-            Age eventually forced him off the land he loved. His son — 23, newly married, a toddler at home — drives out on his days off from his regular job to keep the work going. Out of love for his father&apos;s life work. Because he wants to build something real for his young family.
+            Age eventually forced him off the land he loved. His son drives out on his days off from his regular job to keep the work going. Out of love for his father&apos;s life work. Because he wants to build something real.
           </p>
           <p className="text-stone-700 leading-relaxed mb-6">
             This project exists to make that possible. To turn what he does on borrowed time into his actual livelihood — and to build something he has a real stake in, not just a job inside of. His family kept this land alive. Any version of this that doesn&apos;t reflect that isn&apos;t worth building.

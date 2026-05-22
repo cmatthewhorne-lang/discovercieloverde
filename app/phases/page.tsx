@@ -13,19 +13,19 @@ const phases = [
       {
         heading: "Trail Work",
         items: [
-          "Priority clearing — machete, 2–3m walking width, 225m corridor toward the bosque",
+          "Priority clearing — machete, walking-width corridor toward the bosque",
           "Motoguadaña (Stihl FS) purchased — stays on the land",
         ],
       },
       {
-        heading: "The Outpost — Edwin's Shack",
+        heading: "The Outpost — The Caretaker's Shack",
         note: "Everyone wants to tear it down. We are not tearing it down.",
         items: [
           "Bahareque walls — mud and cane, traditional Central American construction. Same technique used in this region for centuries.",
           "New metal roof",
           "Spring water line repaired",
           "Power audit — solar supplement where needed",
-          "This is Edwin's house. It becomes Daniel's base. Eventually a small outpost for volunteers.",
+          "This is Macho's house. It becomes Daniel's base. Eventually a small outpost for volunteers.",
         ],
       },
       {
@@ -70,7 +70,6 @@ const phases = [
         heading: "The Trail System",
         items: [
           "Full trail from the outpost to the highest point of the property",
-          "1,500m as the crow flies — 3–4km of actual trail accounting for terrain",
           "Blazed, marked, cleared to walking width",
           "Trail signage — distance markers, species callouts",
         ],
@@ -95,17 +94,16 @@ const phases = [
       {
         heading: "Programs Launched",
         items: [
-          "Guided day walks — no ICT registration required for this model",
+          "Guided day walks open",
           "Birdwatching program — professional survey, full species list, eBird submission",
-          "PSA/FONAFIFO application — ~$2,800/year passive income for primary forest preservation",
+          "Forest preservation income program applied for",
         ],
       },
       {
         heading: "Legal Structure",
         items: [
-          "Costa Rica SRL formed — operating company, co-led with Daniel's family",
+          "Costa Rica operating company formed — co-led with Daniel's family",
           "Daniel has formal officer role and documented path to equity stake",
-          "Costa Rica attorney consulted before money moves at scale",
         ],
       },
     ],
@@ -124,15 +122,15 @@ const phases = [
         heading: "Platforms",
         items: [
           "First overnight platform — highest point of the property, against the park boundary. Canvas tent, real bed, wood stove.",
-          "2 additional platforms at different elevations and habitat zones",
-          "ICT ecotourism registration — required before paying overnight guests",
-          "Helicopter LZ registered with Cruz Roja — safety for remote overnight",
+          "Additional platforms at different elevations and habitat zones",
+          "Ecotourism registration obtained",
+          "Emergency access plan in place for remote overnight stays",
         ],
       },
       {
         heading: "The Outpost as Hub",
         items: [
-          "Central kitchen and common area — extension of Edwin's shack, same materials, same scale",
+          "Central kitchen and common area — extension of the outpost shack, same materials, same scale",
           "Composting toilets and solar showers",
           "This is not a lodge. It is an outpost that grew.",
         ],
@@ -140,7 +138,7 @@ const phases = [
       {
         heading: "Revenue",
         items: [
-          "Paying overnight guests — $150–250/night",
+          "Paying overnight guests",
           "Small writers retreats — 3–4 people, 4–5 days, total quiet. The forest is the program.",
           "Yoga retreats — partnered with an existing instructor. They bring people, we provide the land and food.",
           "Sponsor a tree — a name in the public ledger next to a real tree",
@@ -234,7 +232,6 @@ export default function PhasesPage() {
           {[
             { label: "Phase 0 goal", value: "$6,000–9,000" },
             { label: "Seed Bearers to fund Daniel full time", value: "40 people at $25/mo" },
-            { label: "PSA passive income (once approved)", value: "~$2,800/year" },
             { label: "Break-even on overnight platforms", value: "~120 nights/year" },
           ].map(({ label, value }) => (
             <div key={label} className="border border-stone-200 rounded p-4">

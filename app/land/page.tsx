@@ -97,7 +97,7 @@ export default function LandPage() {
       <section className="border-l-4 border-emerald-600 pl-8 space-y-4">
         <h2 className="text-xl font-semibold">The Caretakers</h2>
         <p className="text-stone-600 leading-relaxed">
-          Edwin "Macho" lived in this area for over 50 years — more than 25 of them on this land under a comodato de cuido — a stewardship arrangement, not a labor contract. He knew every trail, every spring, every tree. He built paths through forest that had no paths. He protected the land when it would have been easier and more profitable not to. The forest is intact today because of him.
+          Macho lived in this area for over 50 years — more than 25 of them on this land under a stewardship arrangement, not a labor contract. He knew every trail, every spring, every tree. He built paths through forest that had no paths. He protected the land when it would have been easier and more profitable not to. The forest is intact today because of him.
         </p>
 
         {/* Walking with Macho — Oct 2024 */}
@@ -105,7 +105,7 @@ export default function LandPage() {
           <div className="relative aspect-square rounded overflow-hidden">
             <Image
               src="/walk-overgrown-2.jpg"
-              alt="Walking into the overgrown trail at Cielo Verde with Edwin"
+              alt="Walking into the overgrown trail at Cielo Verde with the caretaker"
               fill
               className="object-cover object-center"
             />
@@ -118,11 +118,11 @@ export default function LandPage() {
               className="object-cover object-center"
             />
           </div>
-          <p className="col-span-2 text-xs text-stone-400">Walking the land with Edwin. October 2024.</p>
+          <p className="col-span-2 text-xs text-stone-400">Walking the land with the caretaker. October 2024.</p>
         </div>
 
         <p className="text-stone-600 leading-relaxed">
-          Age eventually forced him off the land he loved. His son — 23, newly married, a toddler at home — now drives out on his days off to keep the work going. He carries his father&apos;s knowledge of this place. He is doing this because he wants to build something real for his young family.
+          Age eventually forced him off the land he loved. His son now drives out on his days off to keep the work going. He carries his father&apos;s knowledge of this place. He is doing this because he wants to build something real — for his family and for the land his father gave his life to.
         </p>
         <p className="text-stone-600 leading-relaxed">
           They are the reason the forest is what it is. This project exists to honor that — and to make it possible for Daniel to do this work full time, not just on borrowed hours.

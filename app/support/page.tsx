@@ -22,7 +22,7 @@ const tiers = [
   {
     amount: 50,
     label: "One Day on the Land",
-    desc: "$50 is one day of work — roughly 25–30 meters of trail cleared with a machete. Daniel tracks every session. You'll see it in the ledger.",
+    desc: "$50 funds one day of trail work — roughly 25–30 meters cleared. Every session is tracked and logged in the ledger.",
     recurring: false,
   },
   {
@@ -34,13 +34,13 @@ const tiers = [
   {
     amount: 250,
     label: "Five Days",
-    desc: "125–150 meters — a meaningful push toward the northwest corner. A full work week on borrowed time made real.",
+    desc: "125–150 meters — a meaningful push toward the northwest corner. A full work week of progress on the land.",
     recurring: false,
   },
   {
     amount: 500,
     label: "Ten Days",
-    desc: "250–300 meters. This is what moves a trail from idea to walkable. Half a month of work.",
+    desc: "250–300 meters. This is what moves a trail from idea to walkable. Half a month of progress.",
     recurring: false,
   },
   {
@@ -80,10 +80,10 @@ export default function SupportPage() {
       <section className="border-l-4 border-emerald-600 pl-6 max-w-2xl">
         <p className="font-semibold text-stone-800 mb-2">What this actually is</p>
         <p className="text-stone-600 text-sm leading-relaxed mb-3">
-          Daniel drives out on his days off from his regular job — 23 years old, newly married, a toddler at home — and clears trail with a machete. He does it because his father spent 25 years on this land and had to leave when his health gave out. Daniel is carrying that forward.
+          Daniel drives out on his days off from his regular job and clears trail with a machete. He does it because his father spent 25 years on this land and had to leave when his health gave out. Daniel is carrying that forward.
         </p>
         <p className="text-stone-600 text-sm leading-relaxed">
-          $50 is one day of work. $1,000 a month — 40 people at $25 — is what it takes for this to be his actual job instead of something he fits in around another job. Two cows, and his family has income from selling calves that doesn't depend on donations at all. That is what we are building toward.
+          $50 funds one day of work on the land. $1,000 a month — 40 people at $25 — is what it takes for this to be Daniel's actual job instead of something he fits in around another job. Two cows, and his family has income from selling calves that doesn't depend on donations at all. That is what we are building toward.
         </p>
       </section>
 
@@ -100,10 +100,13 @@ export default function SupportPage() {
       </section>
 
       {/* How to contribute */}
-      <section className="bg-stone-50 rounded-md p-6">
-        <p className="font-semibold text-stone-800 mb-2">How to contribute right now</p>
-        <p className="text-stone-600 text-sm leading-relaxed mb-3">
-          Stripe payments are coming. Until then, click any tier below — it will open an email to us with your selection filled in. We will send you payment instructions directly. Every contribution is recorded in the public ledger below.
+      <section className="bg-stone-50 rounded-md p-6 space-y-3">
+        <p className="font-semibold text-stone-800">How to contribute right now</p>
+        <p className="text-stone-600 text-sm leading-relaxed">
+          Click any tier below — it will open an email with your selection filled in. We will reply with payment instructions within 24 hours.
+        </p>
+        <p className="text-stone-600 text-sm leading-relaxed">
+          We accept <strong>Venmo</strong>, <strong>PayPal</strong>, and <strong>Zelle</strong>. Stripe is coming soon. Or send good vibes — those are free and also appreciated.
         </p>
         <p className="text-xs text-stone-400">
           Contributions are not tax-deductible. Nova Vista Holdings LLC is a for-profit entity.
