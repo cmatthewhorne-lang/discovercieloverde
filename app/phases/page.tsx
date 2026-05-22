@@ -103,7 +103,7 @@ export default function PhasesPage() {
           <h2 className="text-2xl font-semibold text-stone-900 mb-1">Overnight</h2>
           <p className="text-sm text-stone-500 mb-4">2027</p>
           <p className="text-stone-600 leading-relaxed text-sm max-w-xl">
-            The first overnight platform goes in at the northwest corner. Small groups can stay. Daniel works here full time. The land starts funding itself.
+            The first overnight platform goes in at the highest point of the property. Small groups can stay. Daniel works here full time. The land starts funding itself.
           </p>
         </section>
 

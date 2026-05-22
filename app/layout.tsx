@@ -11,7 +11,7 @@ const lora = Lora({ subsets: ["latin"], variable: "--font-lora" });
 export const metadata: Metadata = {
   title: "Cielo Verde — Costa Rica Cloud Forest",
   description:
-    "Primary cloud forest on the border of Braulio Carrillo National Park. Support conservation, join an expedition.",
+    "Primary cloud forest near Braulio Carrillo National Park, Costa Rica. Never cleared. A family kept it alive for 25 years.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

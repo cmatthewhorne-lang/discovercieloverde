@@ -32,7 +32,7 @@ export default function LandPage() {
           The property has two distinct zones. The <strong>bosque</strong> — primary cloud forest, intact canopy, undisturbed soil, unbroken habitat. Never logged, never cleared. The <strong>potrero</strong> — a hilly clearing where wild blackberries are already growing, confirming the microclimate. Domestic animals stay in the potrero. The bosque stays wild.
         </p>
         <p className="text-stone-600 leading-relaxed">
-          A year-round river runs the western boundary. Glass frogs live on the river — translucent, visible organs, a clean-water indicator that does not survive in degraded habitat. The water is cold and clear. There is no signal on the property.
+          A year-round river runs along the property boundary. Glass frogs live on the river — translucent, visible organs, a clean-water indicator that does not survive in degraded habitat. The water is cold and clear. There is no signal on the property.
         </p>
       </section>
 
@@ -82,15 +82,15 @@ export default function LandPage() {
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-xl font-semibold">The 1882 Road</h2>
+        <h2 className="text-xl font-semibold">The Old Road</h2>
         <p className="text-stone-600 leading-relaxed">
-          The Camino Carrillo — cobblestone, built 1882, historically the only route between the Central Valley and the Caribbean coast — runs near the property. Four-wheel drive only. The cobblestones are still there.
+          An old cobblestone road runs near the property — built in the 1880s, historically the only route between the Central Valley and the Caribbean coast. Four-wheel drive only. The cobblestones are still there.
         </p>
         <p className="text-stone-600 leading-relaxed">
-          On July 18, 1884, Bishop Bernardo Augusto Thiel was exiled from Costa Rica and walked this road. He documented the forest as he passed through. His account is one of the earliest written records of what this land looked like. A shrine to his passage exists somewhere inside Braulio Carrillo, now inaccessible. We walk the same road he walked to reach this place.
+          In 1884, Bishop Bernardo Augusto Thiel was exiled from Costa Rica and walked this road. He documented the forest as he passed through — one of the earliest written records of what this land looked like. We walk the same road to reach this place.
         </p>
         <p className="text-stone-600 leading-relaxed">
-          The road into this area draws people looking for the park. Most are turned back. The ones who keep going find primary forest, a family that knows it, and no tour group in sight.
+          The road draws people looking for the park. Most are turned back. The ones who keep going find primary forest, a family that knows it, and no tour group in sight.
         </p>
       </section>
 
@@ -161,7 +161,7 @@ export default function LandPage() {
       <section className="space-y-4">
         <h2 className="text-xl font-semibold">The Northwest Corner</h2>
         <p className="text-stone-600 leading-relaxed">
-          The highest point of the property, around 1,600m, sits directly against the boundary of Braulio Carrillo National Park. Dense cloud forest, permanent cloud cover, the park as the northern wall. The most remote and biodiverse section of the property — and it has never been formally documented.
+          The highest point of the property borders Braulio Carrillo National Park. Dense cloud forest, permanent cloud cover. The most remote and biodiverse section of the land — and it has never been formally documented.
         </p>
         <p className="text-stone-600 leading-relaxed">
           The trail work happening now is what makes it reachable. That's where we're going.

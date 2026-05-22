@@ -4,7 +4,7 @@ import { Resend } from "resend";
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {
-  const { name, email, location, skills, passport, expedition, message } = await req.json();
+  const { name, email, location, skills, message } = await req.json();
 
   if (!name || !email) {
     return NextResponse.json({ error: "Missing fields" }, { status: 400 });
@@ -14,14 +14,12 @@ export async function POST(req: NextRequest) {
     from: "Cielo Verde <hello@mail.discovercieloverde.com>",
     to: "info@discovercieloverde.com",
     replyTo: email,
-    subject: `Volunteer signup — ${name}`,
+    subject: `Get involved — ${name}`,
     text: [
       `Name: ${name}`,
       `Email: ${email}`,
       `Location: ${location || "—"}`,
       `Skills: ${skills || "—"}`,
-      `Passport: ${passport || "—"}`,
-      `Expedition: ${expedition || "—"}`,
       `Message: ${message || "—"}`,
     ].join("\n"),
   });
