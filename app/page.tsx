@@ -25,7 +25,7 @@ export default function HomePage() {
               We won&apos;t transform you.<br />The forest might.
             </h1>
             <p className="mt-5 text-lg text-stone-300 max-w-xl leading-relaxed">
-              Primary cloud forest on the southern boundary of Braulio Carrillo National Park. Never cleared. A family kept it alive for over 25 years. No signal on the property.
+              Primary cloud forest. Never cleared. A family kept it alive for over 25 years. No signal on the property.
             </p>
             <div className="mt-8 flex gap-4 flex-wrap">
               <Link
@@ -35,10 +35,10 @@ export default function HomePage() {
                 Support the Project
               </Link>
               <Link
-                href="/volunteer"
+                href="/get-involved"
                 className="border border-white/40 hover:border-white text-white px-6 py-3 rounded font-medium transition-colors"
               >
-                Join the Expedition
+                Get Involved
               </Link>
             </div>
           </FadeIn>
@@ -50,13 +50,16 @@ export default function HomePage() {
         {/* The land + who's building this — combined, early */}
         <section className="max-w-2xl space-y-6">
           <p className="text-xl md:text-2xl text-stone-700 leading-relaxed">
-            Cloud forest around 1,600m on the edge of one of the most biodiverse national parks in the Western Hemisphere. Two zones — bosque and potrero. A year-round river. The Camino Carrillo — the cobblestone road Bishop Bernardo Augusto Thiel walked into exile in 1884 — runs nearby. The cobblestones are still there.
+            I was born in Orlando. My dad is from West Virginia, my mom from Guadalajara. My dad bought land in Costa Rica. He gave it to me.
           </p>
           <p className="text-stone-600 leading-relaxed">
-            I quit my job and needed to go somewhere that wasn&apos;t where I was. My father had given me this land in Costa Rica, and I went. I spent years managing merch on tour with country acts, then running bars in Nashville — loud work, but work that runs on performance. I needed something that didn&apos;t.
+            I spent a decade on tour — merch for Michael Ray, Billy Currington, Kane Brown, Luke Combs. Then bars in Nashville. I quit to help my dad when his health got bad. That chapter is still open.
           </p>
           <p className="text-stone-600 leading-relaxed">
-            If you&apos;re carrying something, the forest doesn&apos;t ask about it. It&apos;s just there — old, intact, indifferent in the best possible way. We&apos;re building this together with the family that kept it alive. Not a resort. Not a program. A place that does what primary forest does.
+            A family has been keeping that land alive for 25 years while I wasn&apos;t there. The forest is intact. I have no money, just the land and some people who believe in it. I want to make something bigger than the sum of its parts.
+          </p>
+          <p className="text-stone-600 leading-relaxed">
+            I don&apos;t know exactly what that is yet. I&apos;m going to go find out.
           </p>
         </section>
 
@@ -70,43 +73,6 @@ export default function HomePage() {
           />
           <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-stone-900/80 to-transparent p-6">
             <p className="text-white text-sm">The potrero — where the clearing meets the cloud line. October 2024.</p>
-          </div>
-        </section>
-
-        {/* Three pillars */}
-        <section>
-          <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-            <div>
-              <h3 className="font-semibold text-lg mb-2">Primary Forest</h3>
-              <p className="text-stone-600 text-sm leading-relaxed">
-                Never logged, never cleared. Intact canopy, undisturbed soil, unbroken habitat. Tapir confirmed. Resplendent Quetzal habitat. Glass frogs on the river. Jaguar corridor from the park. This is not forest coming back — it never left.
-              </p>
-            </div>
-            <div>
-              <h3 className="font-semibold text-lg mb-2">The Gate That Sends People Here</h3>
-              <p className="text-stone-600 text-sm leading-relaxed">
-                The road dead-ends at the park boundary. Most people who make the drive are turned away at the gate. They drove an hour up cobblestone in a 4x4 to get there. Cielo Verde is what they find instead — primary forest, a family that knows it, and no tour group in sight.
-              </p>
-            </div>
-            <div>
-              <h3 className="font-semibold text-lg mb-2">The Lost Shrine</h3>
-              <p className="text-stone-600 text-sm leading-relaxed">
-                Somewhere inside Braulio Carrillo, now inaccessible, a shrine marks where Bishop Thiel passed on July 18, 1884 — exiled from Costa Rica, walking this road. His account is one of the earliest written records of what this land looked like. We walk the same road.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* River photo */}
-        <section className="relative w-full h-64 md:h-80 rounded overflow-hidden">
-          <Image
-            src="/river.jpg"
-            alt="The year-round river on the western boundary of Cielo Verde"
-            fill
-            className="object-cover object-bottom"
-          />
-          <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-stone-900/80 to-transparent p-6">
-            <p className="text-white text-sm">The river on the western boundary. Cold, clear, year-round. Glass frogs live here.</p>
           </div>
         </section>
 
@@ -135,53 +101,27 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Phase 0 */}
-        <section>
-          <h2 className="text-xs uppercase tracking-widest text-stone-400 mb-6">The Work Right Now</h2>
-          <div className="border border-stone-200 rounded-md p-6">
-            <div className="flex items-start justify-between mb-5">
-              <div>
-                <p className="font-semibold text-lg">Phase 0 — Trail clearing. Right now.</p>
-                <p className="text-stone-500 text-sm mt-1">Daniel is working on his days off. $50 covers one day.</p>
-              </div>
-              <span className="text-xs bg-amber-100 text-amber-800 px-3 py-1 rounded-full font-medium shrink-0">In Progress</span>
-            </div>
-            <div className="space-y-2 text-sm text-stone-500 mb-5">
-              <p>○ Trail clearing — $50/day per person on the land</p>
-              <p>○ Gate and entrance — $650</p>
-              <p>○ Trail clearing equipment (Stihl FS) — $400</p>
-              <p>○ Two heifers for Daniel's family — $1,200 (income from calves is his, not the project's)</p>
-              <p>○ July expedition — flights, food, crew — $500</p>
-            </div>
-            <p className="text-sm text-stone-400 border-t border-stone-100 pt-4">
-              Nothing has been funded yet. Everything raised goes directly to this list. Every dollar tracked publicly.
-            </p>
-          </div>
-        </section>
-
-        {/* Urgency */}
-        <section className="text-center py-8 max-w-2xl mx-auto">
-          <h2 className="text-2xl font-bold mb-4 leading-snug">
-            In July we walk to the northwest corner for the first time. We need to be ready.
-          </h2>
-          <p className="text-stone-600 mb-3 leading-relaxed">
-            A wildlife photographer and a small crew will make the first documented walk to the park boundary at 1,600m. The family will lead. We will follow. What comes back — photos, video, wildlife documentation — is what this project shows the world in August.
+        {/* The work right now */}
+        <section className="max-w-2xl space-y-4">
+          <h2 className="text-xs uppercase tracking-widest text-stone-400">The Work Right Now</h2>
+          <p className="text-stone-600 leading-relaxed">
+            Daniel is on the land on his days off, clearing trail with a machete and sending photos. The land is overgrown — he's working the highest-impact areas first. In a few months, we're going back with a small crew and a camera to work on the old caretaker's shack, camp, and mark trails.
           </p>
-          <p className="text-stone-600 mb-8 leading-relaxed">
-            The trail work starts now. It needs funding now.
+          <p className="text-stone-600 leading-relaxed">
+            $50 covers one day of work. Every dollar is tracked in the public ledger.
           </p>
-          <div className="flex gap-4 justify-center flex-wrap">
+          <div className="flex gap-4 flex-wrap pt-2">
             <Link
               href="/support"
-              className="bg-emerald-600 hover:bg-emerald-500 text-white px-8 py-3 rounded font-medium transition-colors"
+              className="bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-3 rounded font-medium transition-colors"
             >
               Fund the Work
             </Link>
             <Link
-              href="/volunteer"
-              className="border border-stone-300 hover:border-stone-500 text-stone-700 px-8 py-3 rounded font-medium transition-colors"
+              href="/get-involved"
+              className="border border-stone-300 hover:border-stone-500 text-stone-700 px-6 py-3 rounded font-medium transition-colors"
             >
-              Join the Expedition
+              Get Involved
             </Link>
           </div>
         </section>

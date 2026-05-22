@@ -3,9 +3,10 @@
     "date": "2026-05-22",
     "category": "Trail Work",
     "item": "Machetes (2) — trail clearing",
-    "note": "Tools donated to the land. Daniel and his brother starting trail work this weekend.",
-    "amount": 30,
+    "note": "Two machetes for Daniel and Michael. Tools stay on the land. Sent 10,000 CRC via Wise.",
+    "amount": 19,
     "status": "Funded",
+    "source": "Christopher",
     "estimate": false,
     "evidence": null
   },
@@ -13,109 +14,32 @@
     "date": "TBD",
     "category": "Trail Work",
     "item": "Motoguadaña — Stihl FS brushcutter",
-    "note": "Company asset, stays on the land. Used for trail clearing and ongoing maintenance.",
+    "note": "Stays on the land. Used for trail clearing and ongoing maintenance.",
     "amount": 400,
     "status": "Needed",
+    "source": null,
     "estimate": true,
     "evidence": null
   },
   {
     "date": "2026-05-22",
     "category": "Trail Work",
-    "item": "Trail clearing — Day 1",
-    "note": "Funds one day of trail work on the land. ~25–30 meters cleared per day.",
-    "amount": 50,
+    "item": "Trail clearing — first session (Daniel + Michael)",
+    "note": "One day, two people. Sent 30,000 CRC via Wise.",
+    "amount": 79,
     "status": "Funded",
-    "estimate": false,
-    "evidence": null
-  },
-  {
-    "date": "2026-05-22",
-    "category": "Trail Work",
-    "item": "Trail clearing — Day 2",
-    "note": "Funds one day of trail work on the land. ~25–30 meters cleared per day.",
-    "amount": 50,
-    "status": "Funded",
+    "source": "Christopher",
     "estimate": false,
     "evidence": null
   },
   {
     "date": "TBD",
     "category": "Trail Work",
-    "item": "Trail clearing — Day 3",
-    "note": "Funds one day of trail work on the land. ~25–30 meters cleared per day.",
+    "item": "Trail clearing — ongoing ($50/day per person)",
+    "note": "Each session funded as it happens. Before/after photos sent by Daniel.",
     "amount": 50,
     "status": "Needed",
-    "estimate": false,
-    "evidence": null
-  },
-  {
-    "date": "TBD",
-    "category": "Trail Work",
-    "item": "Trail clearing — Day 4",
-    "note": "Funds one day of trail work on the land. ~25–30 meters cleared per day.",
-    "amount": 50,
-    "status": "Needed",
-    "estimate": false,
-    "evidence": null
-  },
-  {
-    "date": "TBD",
-    "category": "Trail Work",
-    "item": "Trail clearing — Day 5",
-    "note": "Funds one day of trail work on the land. ~25–30 meters cleared per day.",
-    "amount": 50,
-    "status": "Needed",
-    "estimate": false,
-    "evidence": null
-  },
-  {
-    "date": "TBD",
-    "category": "Trail Work",
-    "item": "Trail clearing — Day 6",
-    "note": "Funds one day of trail work on the land. ~25–30 meters cleared per day.",
-    "amount": 50,
-    "status": "Needed",
-    "estimate": false,
-    "evidence": null
-  },
-  {
-    "date": "TBD",
-    "category": "Trail Work",
-    "item": "Trail clearing — Day 7",
-    "note": "Funds one day of trail work on the land. ~25–30 meters cleared per day.",
-    "amount": 50,
-    "status": "Needed",
-    "estimate": false,
-    "evidence": null
-  },
-  {
-    "date": "TBD",
-    "category": "Trail Work",
-    "item": "Trail clearing — Day 8",
-    "note": "Funds one day of trail work on the land. ~25–30 meters cleared per day.",
-    "amount": 50,
-    "status": "Needed",
-    "estimate": false,
-    "evidence": null
-  },
-  {
-    "date": "TBD",
-    "category": "Trail Work",
-    "item": "Trail clearing — Day 9",
-    "note": "Funds one day of trail work on the land. ~25–30 meters cleared per day.",
-    "amount": 50,
-    "status": "Needed",
-    "estimate": false,
-    "evidence": null
-  },
-  {
-    "date": "TBD",
-    "category": "Trail Work",
-    "item": "Trail clearing — Day 10",
-    "note": "Funds one day of trail work on the land. ~25–30 meters cleared per day.",
-    "amount": 50,
-    "status": "Needed",
+    "source": null,
     "estimate": false,
     "evidence": null
   },
@@ -127,7 +51,8 @@
     "amount": 400,
     "status": "Needed",
     "estimate": true,
-    "evidence": null
+    "evidence": null,
+    "source": null
   },
   {
     "date": "TBD",
@@ -137,7 +62,8 @@
     "amount": 200,
     "status": "Needed",
     "estimate": true,
-    "evidence": null
+    "evidence": null,
+    "source": null
   },
   {
     "date": "TBD",
@@ -147,7 +73,8 @@
     "amount": 350,
     "status": "Needed",
     "estimate": true,
-    "evidence": null
+    "evidence": null,
+    "source": null
   },
   {
     "date": "TBD",
@@ -157,7 +84,8 @@
     "amount": 150,
     "status": "Needed",
     "estimate": true,
-    "evidence": null
+    "evidence": null,
+    "source": null
   },
   {
     "date": "TBD",
@@ -167,7 +95,8 @@
     "amount": 600,
     "status": "Needed",
     "estimate": true,
-    "evidence": null
+    "evidence": null,
+    "source": null
   },
   {
     "date": "TBD",
@@ -177,7 +106,8 @@
     "amount": 400,
     "status": "Needed",
     "estimate": true,
-    "evidence": null
+    "evidence": null,
+    "source": null
   },
   {
     "date": "TBD",
@@ -187,7 +117,8 @@
     "amount": 150,
     "status": "Needed",
     "estimate": true,
-    "evidence": null
+    "evidence": null,
+    "source": null
   },
   {
     "date": "TBD",
@@ -197,7 +128,8 @@
     "amount": 1200,
     "status": "Needed",
     "estimate": true,
-    "evidence": null
+    "evidence": null,
+    "source": null
   },
   {
     "date": "TBD",
@@ -207,46 +139,62 @@
     "amount": 200,
     "status": "Needed",
     "estimate": true,
-    "evidence": null
+    "evidence": null,
+    "source": null
   },
   {
     "date": "TBD",
-    "category": "Safety",
+    "category": "Documentation & Safety",
     "item": "Garmin inReach Mini 2 — satellite communicator",
     "note": "No cell signal on the property. Required for safety when working remote. Device + first year subscription.",
     "amount": 400,
     "status": "Needed",
     "estimate": true,
-    "evidence": null
+    "evidence": null,
+    "source": null
   },
   {
     "date": "TBD",
-    "category": "July Expedition",
-    "item": "Wildlife photographer — flight (Florida to San José)",
-    "note": "Documents the land for the first time.",
-    "amount": 500,
+    "category": "Documentation & Safety",
+    "item": "Garmin GPS — trail mapping",
+    "note": "For marking trails, springs, and points of interest on the property. Stays on the land.",
+    "amount": 250,
     "status": "Needed",
     "estimate": true,
-    "evidence": null
+    "evidence": null,
+    "source": null
   },
   {
     "date": "TBD",
-    "category": "July Expedition",
-    "item": "Expedition food — 5 days for crew",
-    "note": "Food for the full crew on the land. Simple, real food.",
+    "category": "Documentation & Safety",
+    "item": "GoPro or Insta360 — field documentation",
+    "note": "For before/after trail documentation and eventual video content. Waterproof, rugged, cloud forest conditions.",
+    "amount": 400,
+    "status": "Needed",
+    "estimate": true,
+    "evidence": null,
+    "source": null
+  },
+  {
+    "date": "TBD",
+    "category": "First Trip Back",
+    "item": "Food and supplies — crew on the land",
+    "note": "Food for a small crew camping on the property for a week. Simple, real food.",
     "amount": 300,
     "status": "Needed",
     "estimate": true,
-    "evidence": null
+    "evidence": null,
+    "source": null
   },
   {
     "date": "TBD",
-    "category": "July Expedition",
+    "category": "First Trip Back",
     "item": "Transport — San José to the land and back",
-    "note": "4x4 required. Multiple trips depending on crew size.",
+    "note": "4x4 required.",
     "amount": 200,
     "status": "Needed",
     "estimate": true,
-    "evidence": null
+    "evidence": null,
+    "source": null
   }
 ]

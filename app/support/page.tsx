@@ -1,8 +1,7 @@
 import ledger from "@/data/ledger.json";
 import { Progress } from "@/components/ui/progress";
-import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
 
 const GOAL = 6000;
 const funded = ledger
@@ -10,170 +9,55 @@ const funded = ledger
   .reduce((sum, e) => sum + e.amount, 0);
 const pct = Math.min(Math.round((funded / GOAL) * 100), 100);
 
-const CONTACT_EMAIL = "info@discovercieloverde.com";
-
-const tiers = [
-  {
-    amount: 25,
-    label: "Seed Bearer",
-    desc: "Monthly. The most important thing you can do. 40 people at $25/month is what it takes for Daniel to stop working two jobs and work this land full time.",
-    recurring: true,
-  },
-  {
-    amount: 50,
-    label: "One Day on the Land",
-    desc: "$50 funds one day of trail work — roughly 25–30 meters cleared. Every session is tracked and logged in the ledger.",
-    recurring: false,
-  },
-  {
-    amount: 100,
-    label: "Two Days",
-    desc: "50–60 meters. Enough to open a full section and see where the next one starts.",
-    recurring: false,
-  },
-  {
-    amount: 250,
-    label: "Five Days",
-    desc: "125–150 meters — a meaningful push toward the northwest corner. A full work week of progress on the land.",
-    recurring: false,
-  },
-  {
-    amount: 500,
-    label: "Ten Days",
-    desc: "250–300 meters. This is what moves a trail from idea to walkable. Half a month of progress.",
-    recurring: false,
-  },
-  {
-    amount: 1200,
-    label: "Two Heifers for Daniel",
-    desc: "Daniel's family gets two cows. When the calves are born and sold, that money is his — not the project's. It's income that doesn't depend on donations.",
-    recurring: false,
-  },
-];
-
-function mailtoLink(tier: typeof tiers[0]) {
-  const subject = encodeURIComponent(
-    `Cielo Verde — ${tier.recurring ? `$${tier.amount}/month` : `$${tier.amount}`} — ${tier.label}`
-  );
-  const body = encodeURIComponent(
-    `Hi,\n\nI'd like to contribute to Cielo Verde.\n\nTier: ${tier.label}\nAmount: $${tier.amount}${tier.recurring ? "/month" : " one-time"}\n\nPlease send me instructions on how to send payment.\n\nThank you.`
-  );
-  return `mailto:${CONTACT_EMAIL}?subject=${subject}&body=${body}`;
-}
-
 export default function SupportPage() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-16 space-y-16">
 
       <div className="max-w-2xl">
-        <p className="text-xs uppercase tracking-widest text-stone-400 mb-3">Support the Project</p>
-        <h1 className="text-4xl font-semibold leading-tight">Pay for the work. Not the dream.</h1>
+        <p className="text-xs uppercase tracking-widest text-stone-400 mb-3">Where the money goes</p>
+        <h1 className="text-4xl font-semibold leading-tight">This is happening either way.</h1>
         <p className="mt-4 text-lg text-stone-600 leading-relaxed">
-          There is no resort being built here. No zip lines, no infinity pool, no pitch deck. There is primary cloud forest that has never been cleared, a family that has kept it alive for 25 years, and trail work that needs to happen before July.
+          Daniel is on the land on his days off, clearing trail with a machete. I'm figuring out the rest. This is my dream and I'm going to make it happen one way or the other — it would just be better with some friends.
         </p>
-        <p className="mt-3 text-lg text-stone-600 leading-relaxed">
-          Every dollar below goes to one of two things: days of work on the land, or building a stable income for Daniel and his family so he can stop splitting his time.
+        <p className="mt-3 text-stone-600 leading-relaxed">
+          If you want to put something toward it, here's exactly where it goes. Every dollar is tracked below.
         </p>
       </div>
 
-      {/* The real goal */}
-      <section className="border-l-4 border-emerald-600 pl-6 max-w-2xl">
-        <p className="font-semibold text-stone-800 mb-2">What this actually is</p>
-        <p className="text-stone-600 text-sm leading-relaxed mb-3">
-          Daniel drives out on his days off from his regular job and clears trail with a machete. He does it because his father spent 25 years on this land and had to leave when his health gave out. Daniel is carrying that forward.
-        </p>
-        <p className="text-stone-600 text-sm leading-relaxed">
-          $50 funds one day of work on the land. $1,000 a month — 40 people at $25 — is what it takes for this to be Daniel's actual job instead of something he fits in around another job. Two cows, and his family has income from selling calves that doesn't depend on donations at all. That is what we are building toward.
-        </p>
-      </section>
-
-      {/* Progress */}
       <section>
         <div className="flex justify-between items-baseline mb-3">
           <span className="text-2xl font-bold text-stone-900">${funded.toLocaleString()} <span className="text-sm font-normal text-stone-500">raised</span></span>
           <span className="text-sm text-stone-500">Goal: ${GOAL.toLocaleString()}</span>
         </div>
         <Progress value={pct} className="h-3 bg-stone-200 [&>div]:bg-emerald-600" />
-        <p className="text-xs text-stone-400 mt-2">
-          {pct}% of Phase 0 funded — be the first to contribute
-        </p>
+        <p className="text-xs text-stone-400 mt-2">{pct}% of Phase 0 funded</p>
       </section>
 
-      {/* How to contribute */}
       <section className="bg-stone-50 rounded-md p-6 space-y-3">
-        <p className="font-semibold text-stone-800">How to contribute right now</p>
+        <p className="font-semibold text-stone-800">How to contribute</p>
         <p className="text-stone-600 text-sm leading-relaxed">
-          Click any tier below — it will open an email with your selection filled in. We will reply with payment instructions within 24 hours.
+          Send what you can to <strong>@cieloverde</strong> on Venmo. No minimum. In the note, write what it's for — a day of trail work, the gate, whatever feels right. Or leave it blank.
         </p>
-        <p className="text-stone-600 text-sm leading-relaxed">
-          We accept <strong>Venmo</strong>, <strong>PayPal</strong>, and <strong>Zelle</strong>. Stripe is coming soon. Or send good vibes — those are free and also appreciated.
-        </p>
-        <p className="text-xs text-stone-400">
-          Contributions are not tax-deductible. Nova Vista Holdings LLC is a for-profit entity.
+        <a
+          href="https://venmo.com/cieloverde"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-3 rounded font-medium text-sm transition-colors"
+        >
+          Send via Venmo @cieloverde
+        </a>
+        <p className="text-xs text-stone-400 pt-1">
+          Contributions are not tax-deductible. This is a personal project, not a nonprofit.
         </p>
       </section>
 
-      {/* Contribution tiers */}
-      <section>
-        <h2 className="text-xs uppercase tracking-widest text-stone-400 mb-6">Where the Money Goes</h2>
-
-        {/* Seed Bearer — elevated */}
-        {tiers.filter(t => t.recurring).map((tier) => (
-          <a key={tier.amount} href={mailtoLink(tier)} className="block mb-4 group">
-            <Card className="border-emerald-500 bg-emerald-50/40 hover:bg-emerald-50/70 transition-colors">
-              <CardContent className="flex items-start justify-between gap-4 p-6">
-                <div>
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-2xl font-bold text-emerald-700">${tier.amount}</span>
-                    <Badge className="bg-emerald-600 text-white hover:bg-emerald-600">Monthly</Badge>
-                    <span className="font-semibold text-stone-800">— {tier.label}</span>
-                  </div>
-                  <p className="text-sm text-stone-600 leading-relaxed">{tier.desc}</p>
-                </div>
-                <span className="shrink-0 bg-emerald-600 group-hover:bg-emerald-500 text-white text-sm px-4 py-2 rounded transition-colors">
-                  Give
-                </span>
-              </CardContent>
-            </Card>
-          </a>
-        ))}
-
-        {/* One-time tiers */}
-        <div className="space-y-3">
-          {tiers.filter(t => !t.recurring).map((tier) => (
-            <a key={tier.amount} href={mailtoLink(tier)} className="block group">
-              <Card className="border-stone-200 hover:border-emerald-400 hover:bg-stone-50/60 transition-colors">
-                <CardContent className="flex items-start justify-between gap-4 p-5">
-                  <div>
-                    <div className="flex items-center gap-2 mb-1">
-                      <span className="text-lg font-bold text-stone-800">${tier.amount}</span>
-                      <span className="text-stone-600">— {tier.label}</span>
-                    </div>
-                    <p className="text-sm text-stone-500 leading-relaxed">{tier.desc}</p>
-                  </div>
-                  <span className="shrink-0 bg-emerald-600 group-hover:bg-emerald-500 text-white text-sm px-4 py-2 rounded transition-colors">
-                    Give
-                  </span>
-                </CardContent>
-              </Card>
-            </a>
-          ))}
-        </div>
-
-        <p className="text-xs text-stone-400 mt-4">
-          Clicking Give opens an email. We will reply with payment instructions within 24 hours.
-        </p>
-      </section>
-
-      {/* Public ledger */}
       <section>
         <h2 className="text-sm font-medium text-stone-500 mb-1">The Ledger</h2>
         <p className="text-sm text-stone-600 mb-1">
-          Every item Phase 0 requires, with what it costs and why. Amounts marked with ~ are estimates — updated to actual when purchased. Before and after photos added as work happens.
+          Every item Phase 0 requires, with what it costs and why. Amounts marked with ~ are estimates, updated to actual when purchased.
         </p>
-        <p className="text-xs text-stone-400 mb-6">Last updated: May 2026 · Updated manually by Mateo</p>
+        <p className="text-xs text-stone-400 mb-6">Last updated: May 2026 · Updated manually by Christopher</p>
 
-        {/* Group by category */}
         {Array.from(new Set(ledger.map((r) => r.category))).map((category) => {
           const rows = ledger.filter((r) => r.category === category);
           const categoryTotal = rows.reduce((sum, r) => sum + r.amount, 0);
@@ -207,7 +91,7 @@ export default function SupportPage() {
                           </Badge>
                         </TableCell>
                         <TableCell className="text-stone-400 text-xs w-28">
-                          {row.evidence ?? "—"}
+                          {row.source ?? (row.evidence ?? "—")}
                         </TableCell>
                       </TableRow>
                     ))}
@@ -224,13 +108,6 @@ export default function SupportPage() {
             Total: ${ledger.reduce((s, r) => s + r.amount, 0).toLocaleString()}
           </p>
         </div>
-      </section>
-
-      {/* Legal */}
-      <section className="bg-stone-50 rounded-md p-5 text-sm text-stone-500">
-        <p>
-          <strong className="text-stone-700">Important:</strong> Contributions to Cielo Verde are not tax-deductible. Nova Vista Holdings LLC is a for-profit entity registered in Wyoming. This is not a nonprofit organization.
-        </p>
       </section>
 
     </main>

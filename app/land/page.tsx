@@ -8,7 +8,7 @@ export default function LandPage() {
         <p className="text-xs uppercase tracking-widest text-stone-400 mb-3">The Land</p>
         <h1 className="text-4xl font-semibold leading-tight">Primary cloud forest. Never cleared. No signal.</h1>
         <p className="mt-4 text-lg text-stone-600 leading-relaxed">
-          Southern boundary of Braulio Carrillo National Park. A year-round river to the west. The historic Camino Carrillo nearby. Cloud forest terrain around 1,600m — similar to Monteverde but without the tourists.
+          Cloud forest in the mountains of Costa Rica, near Braulio Carrillo National Park. A year-round river to the west. Around 1,600m — similar to Monteverde but without the tourists.
         </p>
       </div>
 
@@ -90,7 +90,7 @@ export default function LandPage() {
           On July 18, 1884, Bishop Bernardo Augusto Thiel was exiled from Costa Rica and walked this road. He documented the forest as he passed through. His account is one of the earliest written records of what this land looked like. A shrine to his passage exists somewhere inside Braulio Carrillo, now inaccessible. We walk the same road he walked to reach this place.
         </p>
         <p className="text-stone-600 leading-relaxed">
-          The road dead-ends at the park boundary. Most people who make the drive are turned away at the gate. They drove an hour up cobblestone in a 4x4 to get there. Cielo Verde is what they find instead — primary forest, a family that knows it, and no tour group in sight.
+          The road into this area draws people looking for the park. Most are turned back. The ones who keep going find primary forest, a family that knows it, and no tour group in sight.
         </p>
       </section>
 
@@ -164,7 +164,7 @@ export default function LandPage() {
           The highest point of the property, around 1,600m, sits directly against the boundary of Braulio Carrillo National Park. Dense cloud forest, permanent cloud cover, the park as the northern wall. The most remote and biodiverse section of the property — and it has never been formally documented.
         </p>
         <p className="text-stone-600 leading-relaxed">
-          In July 2026, a small crew makes the first walk there. The family leads. We follow.
+          The trail work happening now is what makes it reachable. That's where we're going.
         </p>
       </section>
 
@@ -187,16 +187,6 @@ export default function LandPage() {
           />
         </div>
         <p className="col-span-2 text-xs text-stone-400 text-center">The bosque canopy. May 2026.</p>
-      </section>
-
-      <section className="space-y-4">
-        <h2 className="text-xl font-semibold">The July 2026 Expedition</h2>
-        <p className="text-stone-600 leading-relaxed">
-          A wildlife photographer will document the property for the first time — photography, video, drone footage (pending DGAC permit). We will map all springs and water sources, identify platform sites, and produce the first real visual record of what this place is.
-        </p>
-        <p className="text-stone-600 leading-relaxed">
-          Everything that launches publicly in August 2026 comes from this expedition. The trail work happening now is what makes it possible.
-        </p>
       </section>
 
     </main>
