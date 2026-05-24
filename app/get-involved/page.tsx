@@ -74,17 +74,23 @@ export default function GetInvolvedPage() {
         <div className="border border-stone-200 rounded-md p-6 space-y-3">
           <p className="font-semibold text-stone-800">Come in person</p>
           <p className="text-stone-600 text-sm leading-relaxed">
-            The land is in the mountains of Costa Rica. Primary cloud forest at around 1,600m. No infrastructure yet — you would be camping. Cold, wet, no signal, real work with your hands alongside Daniel and his family.
+            The land is in the mountains of Costa Rica. Primary cloud forest at around 1,600m. Cold, wet, no signal, real work with your hands alongside Daniel and his family.
           </p>
           <p className="text-stone-600 text-sm leading-relaxed">
-            In a few months, we're going back with a small crew to work on the old caretaker's shack, mark trails, and document the property. If that sounds like something you want to be part of, get in touch.
+            We're heading back in a few months with a small crew and a photographer to document the land, clear trails, remove invasive plants from the river corridor, and start filming. If that sounds like something you want to be part of, get in touch.
+          </p>
+          <p className="text-stone-600 text-sm leading-relaxed">
+            Further down the line: a natural building workshop where a small group of paying participants builds the first permanent structure on the land together. We'll announce that when it's ready.
           </p>
         </div>
 
         <div className="border border-stone-200 rounded-md p-6 space-y-3">
           <p className="font-semibold text-stone-800">Help remotely</p>
           <p className="text-stone-600 text-sm leading-relaxed">
-            We need people who can edit video, do CAD drawings, design, translate, or help tell this story. Daniel sends photos and footage as he works — someone needs to do something useful with them. If you have a skill and want to apply it to this, reach out.
+            We're building a documentary series about this project — filmed as it happens, no script. The most immediate need is video editors who can cut raw expedition footage into episodes. If that's you, we want to hear from you.
+          </p>
+          <p className="text-stone-600 text-sm leading-relaxed">
+            We also need people who can do CAD drawings, design, translate Spanish, help with social media, or contribute expertise in ecology, construction, or Costa Rican law. If you have a skill and want to apply it to something real, reach out.
           </p>
         </div>
       </section>

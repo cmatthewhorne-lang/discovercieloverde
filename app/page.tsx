@@ -105,10 +105,10 @@ export default function HomePage() {
         <section className="max-w-2xl space-y-4">
           <h2 className="text-xs uppercase tracking-widest text-stone-400">The Work Right Now</h2>
           <p className="text-stone-600 leading-relaxed">
-            Daniel is on the land on his days off, clearing trail with a machete and sending photos. The land is overgrown — he's working the highest-impact areas first. In a few months, we're going back with a small crew and a camera to work on the old caretaker's shack, camp, and mark trails.
+            Daniel is actively working the land — clearing trail, maintaining the property, and sending photos as he goes. He's working the highest-impact areas first. We're documenting everything.
           </p>
           <p className="text-stone-600 leading-relaxed">
-            $50 covers one day of work. Every dollar is tracked in the public ledger.
+            In a few months we're going back with a small crew and a photographer to document the land, work on the trail system, and start filming a documentary series about what we're building here. $50 covers one day of work. Every dollar is tracked in the public ledger.
           </p>
           <div className="flex gap-4 flex-wrap pt-2">
             <Link

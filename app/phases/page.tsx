@@ -41,14 +41,13 @@ export default function PhasesPage() {
             </div>
 
             <div>
-              <p className="text-sm font-medium text-stone-700 mb-1">Macho's Shack</p>
+              <p className="text-sm font-medium text-stone-700 mb-1">The Outpost</p>
               <p className="text-sm text-stone-500 italic mb-2">Everyone wants to tear it down. We are not tearing it down.</p>
               <ul className="space-y-1.5">
                 {[
                   "Bahareque walls — mud and cane, traditional Central American construction",
-                  "New metal roof",
-                  "Spring water line repaired",
-                  "This is Macho's house. It becomes Daniel's base. Eventually a simple outpost for volunteers.",
+                  "Roof and water system restored",
+                  "Daniel's base of operations. Eventually a simple outpost for volunteers and small crews.",
                 ].map((item, i) => (
                   <li key={i} className="flex gap-3 text-sm text-stone-600 leading-relaxed">
                     <span className="text-stone-300 shrink-0 mt-0.5">—</span>
@@ -62,9 +61,24 @@ export default function PhasesPage() {
               <p className="text-sm font-medium text-stone-700 mb-2">Property</p>
               <ul className="space-y-1.5">
                 {[
-                  "Gate replacement at road entrance",
-                  "Fence assessment and priority repairs",
+                  "Perimeter assessment and priority fence repairs",
                   "Two heifers for Daniel's family — income from cattle sales is his, not the project's",
+                ].map((item, i) => (
+                  <li key={i} className="flex gap-3 text-sm text-stone-600 leading-relaxed">
+                    <span className="text-stone-300 shrink-0 mt-0.5">—</span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div>
+              <p className="text-sm font-medium text-stone-700 mb-2">The Documentary</p>
+              <ul className="space-y-1.5">
+                {[
+                  "First expedition back with a photographer and small crew — the land documented on film for the first time",
+                  "A YouTube series following what we're building here, as it's being built",
+                  "Revenue from the channel funds Phase 1 and beyond — the forest pays for itself",
                 ].map((item, i) => (
                   <li key={i} className="flex gap-3 text-sm text-stone-600 leading-relaxed">
                     <span className="text-stone-300 shrink-0 mt-0.5">—</span>
@@ -90,7 +104,7 @@ export default function PhasesPage() {
           <h2 className="text-2xl font-semibold text-stone-900 mb-1">Opening the Land</h2>
           <p className="text-sm text-stone-500 mb-4">Late 2026</p>
           <p className="text-stone-600 leading-relaxed text-sm max-w-xl">
-            The trail system opens from the outpost to the highest point of the property. The farm expands — a dairy cow, chickens, real food for people working here. Solar power and a composting toilet go into the outpost. A formal operating structure gets built with Daniel's family — not an employment relationship, a partnership with a real stake in what this becomes.
+            The trail system opens from the outpost to the highest point of the property. The farm expands — a dairy cow, chickens, real food for people working here. A natural building workshop brings an instructor and a small group of paying participants to build the first permanent structure on the land together. Solar power and a composting toilet go into the outpost. A formal operating structure gets built with Daniel's family — not an employment relationship, a partnership with a real stake in what this becomes.
           </p>
         </section>
 

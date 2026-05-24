@@ -17,7 +17,7 @@ export default function SupportPage() {
         <p className="text-xs uppercase tracking-widest text-stone-400 mb-3">Where the money goes</p>
         <h1 className="text-4xl font-semibold leading-tight">This is happening either way.</h1>
         <p className="mt-4 text-lg text-stone-600 leading-relaxed">
-          Daniel is on the land on his days off, clearing trail with a machete. I'm figuring out the rest. This is my dream and I'm going to make it happen one way or the other — it would just be better with some friends.
+          Daniel is on the land, clearing trail and maintaining the property. I'm figuring out the rest from Nashville. This is my dream and I'm going to make it happen one way or the other — it would just be better with some friends.
         </p>
         <p className="mt-3 text-stone-600 leading-relaxed">
           If you want to put something toward it, here's exactly where it goes. Every dollar is tracked below.
