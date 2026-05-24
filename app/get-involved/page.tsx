@@ -87,7 +87,10 @@ export default function GetInvolvedPage() {
         <div className="border border-stone-200 rounded-md p-6 space-y-3">
           <p className="font-semibold text-stone-800">Help remotely</p>
           <p className="text-stone-600 text-sm leading-relaxed">
-            We're building a documentary series about this project — filmed as it happens, no script. The most immediate need is video editors who can cut raw expedition footage into episodes. If that's you, we want to hear from you.
+            We're building a documentary series — filmed as it happens, no script, no polish. Raw footage from a cloud forest in Costa Rica: trail work, wildlife, a caretaker family, a land being figured out in real time. We need an editor who can work with that kind of material and understands that the rough edges are the point.
+          </p>
+          <p className="text-stone-600 text-sm leading-relaxed">
+            This is not a paid gig yet. It's an early project with a real story, and the right editor will have something worth showing for it. If that sounds like something you want on your reel, get in touch.
           </p>
           <p className="text-stone-600 text-sm leading-relaxed">
             We also need people who can do CAD drawings, design, translate Spanish, help with social media, or contribute expertise in ecology, construction, or Costa Rican law. If you have a skill and want to apply it to something real, reach out.
