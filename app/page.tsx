@@ -108,20 +108,23 @@ export default function HomePage() {
             Daniel is actively working the land — clearing trail, maintaining the property, and sending photos as he goes. He's working the highest-impact areas first. We're documenting everything.
           </p>
           <p className="text-stone-600 leading-relaxed">
-            In a few months we're going back with a small crew and a photographer to document the land, work on the trail system, and start filming a documentary series about what we're building here. $50 covers one day of work. Every dollar is tracked in the public ledger.
+            In a few months we're going back with a small crew and a photographer to document the land, work on the trail system, and start filming a documentary series about what we're building here.
+          </p>
+          <p className="text-stone-600 leading-relaxed">
+            Right now we're looking for people — on the ground and remote — who want to help build this before it's finished. If that's you, start here.
           </p>
           <div className="flex gap-4 flex-wrap pt-2">
             <Link
-              href="/support"
+              href="/get-involved"
               className="bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-3 rounded font-medium transition-colors"
             >
-              Fund the Work
+              Join the Team
             </Link>
             <Link
-              href="/get-involved"
+              href="/support"
               className="border border-stone-300 hover:border-stone-500 text-stone-700 px-6 py-3 rounded font-medium transition-colors"
             >
-              Get Involved
+              Support the Caretakers
             </Link>
           </div>
         </section>
