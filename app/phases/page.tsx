@@ -104,7 +104,7 @@ export default function PhasesPage() {
           <h2 className="text-2xl font-semibold text-stone-900 mb-1">Opening the Land</h2>
           <p className="text-sm text-stone-500 mb-4">Late 2026</p>
           <p className="text-stone-600 leading-relaxed text-sm max-w-xl">
-            The trail system opens from the outpost to the highest point of the property. The farm expands — a dairy cow, chickens, real food for people working here. A natural building workshop brings an instructor and a small group of paying participants to build the first permanent structure on the land together. Solar power and a composting toilet go into the outpost. A formal operating structure gets built with Daniel's family — not an employment relationship, a partnership with a real stake in what this becomes.
+            The trail system opens from the outpost to the highest point of the property. The farm expands — a dairy cow, chickens, real food for people working here. A natural building workshop brings an instructor and a small group of paying participants to build the first permanent structure on the land together. Solar power and a composting toilet go into the outpost. A formal operating structure gets built with Daniel&apos;s family — not an employment relationship, a partnership with a real stake in what this becomes.
           </p>
         </section>
 
@@ -125,7 +125,7 @@ export default function PhasesPage() {
 
       <section className="pt-6 border-t border-stone-200 space-y-3">
         <p className="text-stone-600 text-sm leading-relaxed">
-          Phase 0 is funded by people who believe the work is worth doing before there's anything to show. The ledger is public. Every dollar is tracked.
+          Phase 0 is funded by people who believe the work is worth doing before there&apos;s anything to show. The ledger is public. Every dollar is tracked.
         </p>
         <div className="flex gap-4 flex-wrap">
           <Link

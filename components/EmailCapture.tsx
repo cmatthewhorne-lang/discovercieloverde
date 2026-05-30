@@ -63,7 +63,7 @@ export default function EmailCapture() {
               disabled={status === "loading"}
               className="bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-2 rounded text-sm font-medium transition-colors disabled:opacity-50 shrink-0"
             >
-              {status === "loading" ? "..." : "Follow"}
+              {status === "loading" ? "Subscribing…" : "Follow"}
             </button>
           </form>
         )}

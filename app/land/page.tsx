@@ -37,8 +37,8 @@ export default function LandPage() {
       </section>
 
       {/* Two zones photo pair */}
-      <section className="grid grid-cols-2 gap-3">
-        <div className="relative aspect-video rounded overflow-hidden col-span-2">
+      <section className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <div className="relative aspect-video rounded overflow-hidden sm:col-span-2">
           <Image
             src="/potrero-wide.jpg"
             alt="The potrero at Cielo Verde — wide clearing with cloud pressing down"
@@ -71,7 +71,7 @@ export default function LandPage() {
             <p className="text-white text-xs">Inside the bosque. May 2026.</p>
           </div>
         </div>
-        <p className="col-span-2 text-xs text-stone-400 text-center">Photos taken on the land — October 2024 and May 2026</p>
+        <p className="sm:col-span-2 text-xs text-stone-400 text-center">Photos taken on the land — October 2024 and May 2026</p>
       </section>
 
       <section className="space-y-4">
@@ -101,7 +101,7 @@ export default function LandPage() {
         </p>
 
         {/* Walking with Macho — Oct 2024 */}
-        <div className="grid grid-cols-2 gap-3 my-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 my-4">
           <div className="relative aspect-square rounded overflow-hidden">
             <Image
               src="/walk-overgrown-2.jpg"
@@ -118,7 +118,7 @@ export default function LandPage() {
               className="object-cover object-center"
             />
           </div>
-          <p className="col-span-2 text-xs text-stone-400">Walking the land with the caretaker. October 2024.</p>
+          <p className="sm:col-span-2 text-xs text-stone-400">Walking the land with the caretaker. October 2024.</p>
         </div>
 
         <p className="text-stone-600 leading-relaxed">
@@ -134,7 +134,7 @@ export default function LandPage() {
 
       <section className="space-y-4">
         <h2 className="text-xl font-semibold">Wildlife</h2>
-        <ul className="text-stone-600 space-y-3 leading-relaxed">
+        <ul className="text-stone-600 space-y-3 leading-relaxed max-w-2xl">
           <li className="flex gap-3">
             <span className="font-medium shrink-0 w-40">Tapir</span>
             <span>Confirmed on the property. Baird&apos;s tapir — the largest land mammal in Central America. Their presence means the habitat is intact and undisturbed.</span>
@@ -164,12 +164,12 @@ export default function LandPage() {
           The highest point of the property borders Braulio Carrillo National Park. Dense cloud forest, permanent cloud cover. The most remote and biodiverse section of the land — and it has never been formally documented.
         </p>
         <p className="text-stone-600 leading-relaxed">
-          The trail work happening now is what makes it reachable. That's where we're going.
+          The trail work happening now is what makes it reachable. That&apos;s where we&apos;re going.
         </p>
       </section>
 
       {/* Canopy mist photos — the destination */}
-      <section className="grid grid-cols-2 gap-3">
+      <section className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         <div className="relative aspect-square rounded overflow-hidden">
           <Image
             src="/canopy-mist-1.jpg"
@@ -186,7 +186,7 @@ export default function LandPage() {
             className="object-cover"
           />
         </div>
-        <p className="col-span-2 text-xs text-stone-400 text-center">The bosque canopy. May 2026.</p>
+        <p className="sm:col-span-2 text-xs text-stone-400 text-center">The bosque canopy. May 2026.</p>
       </section>
 
     </main>

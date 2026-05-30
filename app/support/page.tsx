@@ -14,7 +14,7 @@ export default function SupportPage() {
       </div>
 
       <section className="max-w-2xl space-y-4">
-        <h2 className="text-xs uppercase tracking-widest text-stone-400">What supporting this means right now</h2>
+        <p className="text-xs uppercase tracking-widest text-stone-400">What supporting this means right now</p>
         <p className="text-stone-600 leading-relaxed">
           We&apos;re not a nonprofit. Contributions aren&apos;t tax-deductible. This is a real project in an early phase, and we&apos;re being honest about that.
         </p>
@@ -45,7 +45,7 @@ export default function SupportPage() {
       </section>
 
       <section className="max-w-2xl space-y-4">
-        <h2 className="text-xs uppercase tracking-widest text-stone-400">Stay close</h2>
+        <p className="text-xs uppercase tracking-widest text-stone-400">Stay close</p>
         <p className="text-stone-600 leading-relaxed">
           The best way to follow what&apos;s happening — what Daniel&apos;s finding on the land, what the camera traps are catching, what&apos;s being built — is the newsletter. One email when there&apos;s something worth saying.
         </p>

@@ -130,16 +130,18 @@ export default function GetInvolvedPage() {
           <form onSubmit={handleSubmit} className="space-y-5">
             <div className="grid md:grid-cols-2 gap-5">
               <div>
-                <label className="block text-sm font-medium text-stone-700 mb-1">Name *</label>
+                <label htmlFor="name" className="block text-sm font-medium text-stone-700 mb-1">Name *</label>
                 <input
+                  id="name"
                   name="name"
                   required
                   className="w-full border border-stone-300 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500"
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-stone-700 mb-1">Email *</label>
+                <label htmlFor="email" className="block text-sm font-medium text-stone-700 mb-1">Email *</label>
                 <input
+                  id="email"
                   name="email"
                   type="email"
                   required
@@ -149,8 +151,9 @@ export default function GetInvolvedPage() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-stone-700 mb-1">Where are you based?</label>
+              <label htmlFor="location" className="block text-sm font-medium text-stone-700 mb-1">Where are you based?</label>
               <input
+                id="location"
                 name="location"
                 placeholder="e.g. Berlin, Germany"
                 className="w-full border border-stone-300 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500"
@@ -165,7 +168,7 @@ export default function GetInvolvedPage() {
                     key={opt}
                     type="button"
                     onClick={() => toggle(opt)}
-                    className={`text-sm px-3 py-1.5 rounded border transition-colors ${
+                    className={`cursor-pointer text-sm px-3 py-1.5 rounded border transition-colors ${
                       selected.includes(opt)
                         ? "bg-emerald-600 border-emerald-600 text-white"
                         : "border-stone-300 text-stone-600 hover:border-stone-500"
@@ -178,8 +181,9 @@ export default function GetInvolvedPage() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-stone-700 mb-1">Tell us more</label>
+              <label htmlFor="message" className="block text-sm font-medium text-stone-700 mb-1">Tell us more</label>
               <textarea
+                id="message"
                 name="message"
                 rows={4}
                 placeholder="What you've done, what you can offer, how much time you have."
